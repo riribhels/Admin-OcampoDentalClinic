@@ -1,0 +1,94 @@
+* {box-sizing: border-box;}
+
+body {
+    background-image: url(dental.jpg);
+}
+#label {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(9, 20, 49);
+}
+.login-container {
+    width: 100%;
+    padding: 10%;
+    margin: auto;
+    display: flex;
+}
+
+.box {
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0.5, 0.5), 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    background-color: rgb(131, 163, 250);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.u-container {
+    padding: 20px;
+    margin: 0px 70px;
+    width: 130%;
+    display: flex;
+}
+
+#un-icon{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(247, 244, 244);
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.p-container {
+    padding: 0 20px;
+    margin: 0px 70px;
+    width: 130%;
+    display: flex;
+}
+
+#pw-icon{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(247, 244, 244);
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.input {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+}
+
+.input:focus {
+    border: 2px solid dodgerblue;
+  }
+
+.button {
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+
+#button {
+    background-color: rgb(53, 96, 216);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 50%;
+    outline: none;
+    border: none;
+    opacity: 0.9;
+}
+
+#button:hover {
+    opacity: 1;
+}
